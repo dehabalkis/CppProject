@@ -30,7 +30,6 @@ int main()
         cin >> select;
 
         //cout << unknow.find(select) << endl; // BAK BAKALIM KAC DÖNÜYOR
-       
         if (word.find(select) == string::npos)
         {
             failed++;
@@ -41,8 +40,10 @@ int main()
             {
                 if (word[i] == select)
                 {
+					
                     unknow[i] = select;
-                }
+                
+				}
             }
         }
 
