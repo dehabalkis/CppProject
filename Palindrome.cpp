@@ -8,6 +8,7 @@ using namespace std;
 
 string neuWord = "";
 
+
 bool palindrome(string word) {
 
     for (int i =0 ; i < word.length(); i++ ) {
@@ -20,6 +21,7 @@ bool palindrome(string word) {
     
     return true;
 }
+
 
 int main()
 {
